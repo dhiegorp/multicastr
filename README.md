@@ -6,7 +6,7 @@
 </td></tr></table>
 
 
-> :warning: Disclaimer: This code was not implemented with security in mind or any intention to be production-ready code. This is just an example, use it as an introduction to your studies. 
+> :warning: <span style="color: red">Disclaimer: This code was not implemented with security in mind or any intention to be production-ready code. This is just an example, use it as an introduction to your studies.</span>
 
 ## Multicastr
 ******
@@ -53,11 +53,17 @@ You don`t need to create any queues, everytime a STOMP client connects to **[Rab
 ## Frontend
 ***
 
-### On the textarea input
+### On the textarea input:
 Press <kbd>Shift</kbd>+<kbd>Enter</kbd> to create a new line<br/>
 Press <kbd>Enter</kbd> to send the message
+<br/>
+<br/>
 
-![client interface](img/client.PNG?raw=true "Title")
+**First user screen, same "room"**
+![first client interface](img/client.PNG?raw=true "Title")
+
+**Second user screen, same "room"**
+![second client interface](img/client2.PNG?raw=true "Title")
 
 
 [RabbitMQ]:https://www.rabbitmq.com/
