@@ -1,0 +1,195 @@
+body {
+    background-color: hsl(0, 0%, 0%);
+}
+
+textarea:focus { 
+    outline: none
+}
+
+div.outdoor {
+    font-family: 'Press Start 2P', cursive;
+    font-size:1em;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+    color: hsl(120, 100%, 60%);
+}
+
+div.outdoor > span {
+    color: hsl(0, 0%, 0%);
+    background-color:hsl(120, 100%, 60%);
+    padding: 5px;
+    margin: 5px;
+}
+
+div.outdoor > .crossed {
+    text-decoration: line-through;
+    text-decoration-color: hsl(0, 0%, 0%);
+}
+
+section.room {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid hsl(116, 43%, 38%);
+    padding: 1.1rem;
+    background: hsl(0, 0%, 0%);
+    padding: 10px;
+    margin: 0 auto;
+    min-height:400px;
+    max-height:400px;
+    overflow-y: auto;
+    
+    /* only for firefox */
+    scrollbar-color: hsl(0,0%,0%) hsl(120, 100%, 60%); 
+    scrollbar-width: thin
+    
+}
+
+/* edge, chrome and safari */
+section.room::-webkit-scrollbar {
+    width: 12px;
+}
+
+section.room::-webkit-scrollbar-track {
+    background: hsl(0, 0%, 0%);
+} 
+
+section.room::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 0%);
+    border-radius: 20px;
+    border: 3px solid hsl(120, 100%, 60%); 
+}
+
+section.room > div {
+    padding-bottom: 2rem;
+}
+
+.counter-holder {
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
+    color:hsl(116, 43%, 38%);
+    font-family: 'Press Start 2P', cursive;
+    font-size:0.75em;
+    letter-spacing: 0.2em;
+}
+
+.counter-holder-blinking {
+    background-color:hsl(116, 43%, 38%);
+    color: hsl(0, 0%, 0%);
+    animation: blinkit 2s infinite;
+}
+@keyframes blinkit {
+    
+    0%     {
+        background-color: hsl(116, 43%, 38%);
+        color: hsl(0, 0%, 0%);
+    }
+    
+    25%     {
+        background-color:  hsl(0, 0%, 0%);
+        color: hsl(116, 43%, 38%);
+    }
+    
+    
+    50%     {
+        background-color:  hsl(0, 0%, 0%);
+        color: hsl(116, 43%, 38%);
+    }
+
+    100%     {
+        background-color: hsl(116, 43%, 38%);
+        color: hsl(0, 0%, 0%);
+    }
+}
+
+.chat-input {
+    width: 99%;
+    min-height: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size:0.75em;
+    padding: 5px;
+    background-color: hsl(0, 0%, 0%);
+    color:hsl(120, 100%, 60%);
+    text-justify: newspaper;
+    letter-spacing: 0.2em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid hsl(116, 43%, 38%);
+    
+}
+
+.chat-input::placeholder {
+    color: hsl(116, 43%, 38%);
+    font-size:0.65em;
+}
+
+
+.title  {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+    font-size: 0.55em; 
+}
+
+.text {
+    white-space: pre-wrap;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.8em;
+    padding: 0.7rem;
+    word-wrap: break-word;
+
+}
+
+
+.date {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bolder;
+    color: hsl(116, 43%, 38%);
+    font-size: 0.6em;
+    padding-top: 0.5rem;
+
+}
+
+.sent-date-others {
+    float: right;
+}
+
+
+.sent-date {
+    float: left;
+}
+
+.message-block-shape-others {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.message-block-theme-others {
+    background-color: hsl(120, 100%, 60%);
+    color:hsl(0, 0%, 0%);
+}
+
+.message-block-others {
+    padding: 1.2rem;
+}
+
+.message-block-shape {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid hsl(120, 100%, 60%);
+}
+
+.message-block-theme {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(120, 100%, 60%);
+}
+
+.message-block {
+    padding: 1.2rem;
+}
