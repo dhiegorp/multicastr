@@ -59,6 +59,10 @@ Press <kbd>Enter</kbd> to send the message
 <br/>
 <br/>
 
+## Screen samples
+****
+
+
 **First user screen, same "room"**
 ![first client interface](img/client.PNG?raw=true "Title")
 
