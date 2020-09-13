@@ -50,8 +50,8 @@ const EXCHANGE = '/exchange/YourFunoutExchange'
 You don`t need to create any queues, everytime a STOMP client connects to **[RabbitMQ]** and subscribe to an exchange, it creates its own temporary queue by default, and bound it to the given exchange. 
 
 
-## Frontend
-***
+# Frontend
+
 
 ### On the textarea input:
 Press <kbd>Shift</kbd>+<kbd>Enter</kbd> to create a new line<br/>
