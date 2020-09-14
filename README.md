@@ -16,7 +16,7 @@ The communication between the message broker and the client is relied upon the S
 
 To simplify the process, every active client -- a browser window/tab -- receives an **[UUID]** as its identification, not allowing the user to input a nickname.  
 
-## Instalation 
+## Installation 
 ******
 For the frontend you just need to download or clone the project  - you can run it in your browser.
 For the backend you`ll have to have the **[RabbitMQ]** installed and configured.
